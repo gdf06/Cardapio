@@ -1,79 +1,137 @@
-
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Cardápio online - Tapiocaria Sabor do Sol</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="banner">
+        <div class="banner-content">
+            <h1>Tapiocaria Sabor do Sol</h1>
+            <p>As melhores tapiocas da região, com ingredientes frescos e sabor inigualável.</p>
+            <nav>
+                <a href="#tapiocas">Tapiocas</a>
+                <a href="#bebidas">Bebidas</a>
+                <a href="#pedido">Pedido</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
 
-    <header> <!-- Cria o Cabeeçalho da pagina -->
-        <div class="header-container">
-            <img src= "LOGO.webp" alt="" class="Logo">
-        <div>
-            <h1>Churrascaria da Maria</h1>
-             <p>Comida de Qualidade</p>
-             <p>Endereço:Rua Allianz Parque 187</p>
-             <p>Instagram:Churras.daMaria</p>
-             <p>Telefone:3327-2929</p>
-             </p>
-        
+    <main>
+        <section id="tapiocas" class="categoria">
+            <h2>Tapiocas</h2>
+            <div class="produto">
+                <img src="fotos/istockphoto-1188849351-612x612.jpg" alt="Tapioca de Frango">
+                <h3>Tapioca de Frango</h3> 
+                <p>Frango desfiado, requeijão, tomate e orégano</p>
+                <span class="preco">R$ 15,00</span>
+                <button class="adicionar">Adicionar</button>
             </div>
-        
-        <div>
-        </header>
+            <div class="produto">
+                <img src="fotos/tapiocachocolate.jpg" alt="Tapioca de Chocolate">
+                <h3>Tapioca de Chocolate</h3> 
+                <p>Chocolate, morango e leite condensado</p>
+                <span class="preco">R$ 19,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+            <div class="produto">
+                <img src="fotos/quejpg" alt="Tapioca de Queijo">
+                <h3>Tapioca de Queijo</h3> 
+                <p>Queijo branco ou queijo mussarela</p>
+                <span class="preco">R$ 13,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+            <div class="produto">
+                <img src="fotos/istockphoto-1256543084-612x612.jpg" alt="Tapioca de Carne de Sol">
+                <h3>Tapioca de Carne de Sol</h3> 
+                <p>Carne de sol desfiada e queijo</p>
+                <span class="preco">R$ 22,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+            <div class="produto">
+                <img src="fotos/istockphoto-1392438263-612x612.jpg" alt="Tapioca de Ovo">
+                <h3>Tapioca de Chocolate</h3>
+                <p>Tapioca de chocolate com chocolate granulado.</p>
+                <span class="preco">R$ 17,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+            <div class="produto">
+                <img src="fotos/istockphoto-964597360-612x612.jpg" alt="Tapioca de Carne">
+                <h3>Tapioca de Carne de Sol</h3>
+                <p>Tapioca de carne de sol desfiada.</p>
+                <span class="preco">R$ 19,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+            <div class="produto">
+                <img src="fotos/istockphoto-1392438263-612x612.jpg" alt="Tapioca de Ovo">
+                <h3>Tapioca de Ovo</h3>
+                <p>Tapioca de ovo de galinha capiria.</p>
+                <span class="preco">R$ 12,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+            <div class="produto">
+                <img src="fotos/istockphoto-1256543084-612x612.jpg" alt="Tapioca de Queijo">
+                <h3>Tapioca de Queijo</h3>
+                <p>Tapioca de queijo branco ou mussarela.</p>
+                <span class="preco">R$ 12,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+        </section>
 
-        <section id="Sobre">
-            <h3>Sobre a Churrascaria</h3>
-            <ul>
-                <li>Criada em 2025 a Churrascaria da Maria traz uma culinaria fantastica
-                     e um ambiente muito confortavel,com musica ao vivo, espaço para dançar, cerveja trincando entre varias outras coisas.
-                      Sou a Maria Silva
-                     35 anos
-                     Empreendedora e chef de cozinha.
-                     </li>
+        <section id="bebidas" class="categoria">
+            <h2>Bebidas</h2>
+            <div class="produto">
+                <img src="fotos/refri.jpg" alt="Refrigerante lata">
+                <h3>Refrigerante lata</h3> 
+                <p>Sabores variados de refrigerante</p>
+                <span class="preco">R$ 10,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+            <div class="produto">
+                <img src="fotos/suco.jpg" alt="Suco de Frutos">
+                <h3>Suco de frutas</h3> 
+                <p>Sabores variados de frutas</p>
+                <span class="preco">R$ 8,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+            <div class="produto">
+                <img src="fotos/agua.png" alt="Água Refrescante">
+                <h3>Água mineral</h3> 
+                <p>Água com e sem gás, 500 ml.</p>
+                <span class="preco">R$ 5,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+        </section>
+
+        <section id="pedido">
+            <h2>Seu Pedido</h2>
+            <ul id="lista-pedido">
+
             </ul>
+
+            <p id="total">Total: R$ 0,00</p>
+            <button id="finalizar-pedido">Finalizar Pedido</button>
+
         </section>
-        <section id="Cardapio">
-            <h2>Cardapio:</h2>
-              <ul>
-                <li>Rodizio:$90,00</li><br><br>
-                <li>Porçao:$30,00Arroz,Alcatra,Batata Frita.</li><br><br>
-
-            
-                
-                <strong>Cardápio de Bebidas:</strong><br><br>
-            <ul>
-                <li>Suco Natural Laranja</li><br><br>
-                <li>Suco Natural Abacaxi c/ Hortelã</li><br><br>
-                <li>Vinho Chileno</li><br><br>
-                <li>Vinho Argentino</li><br><br>
-                <li>Coca-Cola</li><br><br>
-                <li>Agua</li><br><br>
-                
-
-              </ul>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco:</p>
+            <div class="redes-sociais">
+                <a href="https://wa.me/43999071408" target="_blank">Whatsapp</a>
+                <a href="https://instagram.com/g_duarte06" target="_blank">Instagram</a>
+            </div>
         </section>
 
-                
-            </ul>
-        </section>
+    </main>
 
-
-
-
-
-
-<footer>
-
-</footer>
-
-    </body>
-    </html>
-
+    <footer>
+        <p>&copy; 2025 Tapiocaria Sabor do Sol</p>
+    </footer>
+    
+    <script src='main.js'></script>
+</body>
+</html>
