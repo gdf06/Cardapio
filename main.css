@@ -14,11 +14,11 @@ header{
   padding: 1rem 0;
 }
 .banner{
-  background-image: url(fotos/fotobanner.jpg);
+  background-image: url(fotos/fotobannner2.avif);
   background-size: cover;
   background-position: center;
-  height: 250px;
-  display: flex;
+  height: 350px;
+  display: grid;
   align-items: center;
   text-align: center;
   color: white;
